@@ -14,6 +14,7 @@
 		AA6C4D62802E747EF315FFEEE3DC7451 /* Pods-CaptureBlocker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA532AE585A33D3DD3E10EDB333402E /* Pods-CaptureBlocker_Example-dummy.m */; };
 		AFEEAF69E038AA881CC3B41921901B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CEA481E223B21CD7008391E6 /* CaptureBlockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA481E123B21CD7008391E6 /* CaptureBlockable.swift */; };
+		CEA481E423B2206E008391E6 /* CBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA481E323B2206E008391E6 /* CBImageView.swift */; };
 		E0B15A0ACDD069D363AD155A081039C9 /* Pods-CaptureBlocker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F299E83C8AE6D3924F464E0BBB39839B /* Pods-CaptureBlocker_Tests-dummy.m */; };
 		F7FDCDED7A01C0C24E7BDFA3405138CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FE0E852C830859714BECC046DA5DF683 /* CaptureBlocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9597C2EF76FEA5F1D9826FC2393AFE /* CaptureBlocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +64,7 @@
 		BC5825EA77A2A69CFC51169596319110 /* CaptureBlocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaptureBlocker-dummy.m"; sourceTree = "<group>"; };
 		CCC77D2DE3435F9E660CD3B7273FD960 /* Pods_CaptureBlocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureBlocker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA481E123B21CD7008391E6 /* CaptureBlockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureBlockable.swift; sourceTree = "<group>"; };
+		CEA481E323B2206E008391E6 /* CBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBImageView.swift; sourceTree = "<group>"; };
 		DAF3698FFC51F584DB4C0D97C51CEA86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB9597C2EF76FEA5F1D9826FC2393AFE /* CaptureBlocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptureBlocker-umbrella.h"; sourceTree = "<group>"; };
 		E43D9AE12B18BB91A4BA1CEFC6A9425C /* Pods-CaptureBlocker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureBlocker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA481E123B21CD7008391E6 /* CaptureBlockable.swift */,
+				CEA481E323B2206E008391E6 /* CBImageView.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA481E223B21CD7008391E6 /* CaptureBlockable.swift in Sources */,
+				CEA481E423B2206E008391E6 /* CBImageView.swift in Sources */,
 				71C7288B55A25076D829EFF6EF6EA9C5 /* CaptureBlocker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
