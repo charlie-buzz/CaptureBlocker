@@ -1,0 +1,16 @@
+PODS:
+  - CaptureBlocker (0.1.0)
+
+DEPENDENCIES:
+  - CaptureBlocker (from `../`)
+
+EXTERNAL SOURCES:
+  CaptureBlocker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CaptureBlocker: 42b95f94147d018013be746f4d788af4b916da79
+
+PODFILE CHECKSUM: 26441db3d871efc8c9b4583630908a92cb92680d
+
+COCOAPODS: 1.8.4

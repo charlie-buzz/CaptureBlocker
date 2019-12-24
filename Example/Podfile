@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CaptureBlocker_Example' do
+  pod 'CaptureBlocker', :path => '../'
+
+  target 'CaptureBlocker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
