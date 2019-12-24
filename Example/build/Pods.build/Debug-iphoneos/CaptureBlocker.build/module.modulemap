@@ -1,0 +1,11 @@
+framework module CaptureBlocker {
+  umbrella header "CaptureBlocker-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CaptureBlocker.Swift {
+    header "CaptureBlocker-Swift.h"
+    requires objc
+}

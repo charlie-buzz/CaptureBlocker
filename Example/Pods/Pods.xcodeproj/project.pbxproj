@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		33254AA94F76054E7CCA88BBDFBE0DB0 /* Pods-CaptureBlocker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9F7969E6D21F7152D9421E58CB02A3 /* Pods-CaptureBlocker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61E9BA1FA70BD375BD7F2DC3277CFA4B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B8094D670B36BB9C6B326763E0A63 /* ReplaceMe.swift */; };
 		71C7288B55A25076D829EFF6EF6EA9C5 /* CaptureBlocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5825EA77A2A69CFC51169596319110 /* CaptureBlocker-dummy.m */; };
 		79C2AB827E30EFB1CB188303937713E9 /* Pods-CaptureBlocker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA738A92CB7F1494CAC2714DFD99D23 /* Pods-CaptureBlocker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94E0B03E5D6156F94B89D5CD55A4E8AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AA6C4D62802E747EF315FFEEE3DC7451 /* Pods-CaptureBlocker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA532AE585A33D3DD3E10EDB333402E /* Pods-CaptureBlocker_Example-dummy.m */; };
 		AFEEAF69E038AA881CC3B41921901B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CEA481E223B21CD7008391E6 /* CaptureBlockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA481E123B21CD7008391E6 /* CaptureBlockable.swift */; };
 		E0B15A0ACDD069D363AD155A081039C9 /* Pods-CaptureBlocker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F299E83C8AE6D3924F464E0BBB39839B /* Pods-CaptureBlocker_Tests-dummy.m */; };
 		F7FDCDED7A01C0C24E7BDFA3405138CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FE0E852C830859714BECC046DA5DF683 /* CaptureBlocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9597C2EF76FEA5F1D9826FC2393AFE /* CaptureBlocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,35 +38,35 @@
 
 /* Begin PBXFileReference section */
 		109B417A3161DF5A03E796E2A45381F2 /* CaptureBlocker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaptureBlocker.xcconfig; sourceTree = "<group>"; };
-		2465DA28F11C1C9FF5553F43B527B948 /* CaptureBlocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CaptureBlocker.framework; path = CaptureBlocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2465DA28F11C1C9FF5553F43B527B948 /* CaptureBlocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaptureBlocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B25D0DE33C5FCC7AA7BC949C224A49 /* Pods-CaptureBlocker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureBlocker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		280A30E7A807C6231B6FE499594DFB4C /* Pods-CaptureBlocker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptureBlocker_Tests.modulemap"; sourceTree = "<group>"; };
 		2902E20FCDECEF13E193CA2A0FE99B89 /* Pods-CaptureBlocker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureBlocker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		31AA8A83EE265302701644008F732B2B /* Pods_CaptureBlocker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CaptureBlocker_Tests.framework; path = "Pods-CaptureBlocker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AA8A83EE265302701644008F732B2B /* Pods_CaptureBlocker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureBlocker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4A3F36432BEC70E02D0720348AE839FA /* Pods-CaptureBlocker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureBlocker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		52A19B65407104EB55789099E21134E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		52A19B65407104EB55789099E21134E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5414D22391D2A95B2C0B756E699F3B79 /* CaptureBlocker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptureBlocker-prefix.pch"; sourceTree = "<group>"; };
 		67267B4FD373D7F278D464BE9E9E89F7 /* Pods-CaptureBlocker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureBlocker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A9F7969E6D21F7152D9421E58CB02A3 /* Pods-CaptureBlocker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptureBlocker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		704A272C74DD3AE40C7D89B42AE2E44A /* CaptureBlocker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CaptureBlocker.modulemap; sourceTree = "<group>"; };
 		746D9B2EFB2DC65657A3BB78F33BF6DF /* Pods-CaptureBlocker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureBlocker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		793B8094D670B36BB9C6B326763E0A63 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CaptureBlocker/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7CA532AE585A33D3DD3E10EDB333402E /* Pods-CaptureBlocker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptureBlocker_Example-dummy.m"; sourceTree = "<group>"; };
 		7EA738A92CB7F1494CAC2714DFD99D23 /* Pods-CaptureBlocker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptureBlocker_Example-umbrella.h"; sourceTree = "<group>"; };
 		8908D45897BE1A6ED5B3115DE4E761D2 /* Pods-CaptureBlocker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureBlocker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3ACA4437AACFE77896D4EE00DBCA778 /* CaptureBlocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CaptureBlocker-Info.plist"; sourceTree = "<group>"; };
 		A7CEBDFD28E25331DC6E385066A5F3C6 /* Pods-CaptureBlocker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptureBlocker_Example.modulemap"; sourceTree = "<group>"; };
 		A97DD9F5F1D1F5D44C2AF6B63A644AA9 /* Pods-CaptureBlocker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureBlocker_Example-Info.plist"; sourceTree = "<group>"; };
 		B4816DA4CAEA69EC884BD5DD5491A0F9 /* Pods-CaptureBlocker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureBlocker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B8E1A07985B52758F08FCDF367AA1D30 /* Pods-CaptureBlocker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureBlocker_Tests-Info.plist"; sourceTree = "<group>"; };
 		BC5825EA77A2A69CFC51169596319110 /* CaptureBlocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaptureBlocker-dummy.m"; sourceTree = "<group>"; };
-		CCC77D2DE3435F9E660CD3B7273FD960 /* Pods_CaptureBlocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CaptureBlocker_Example.framework; path = "Pods-CaptureBlocker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAF3698FFC51F584DB4C0D97C51CEA86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CCC77D2DE3435F9E660CD3B7273FD960 /* Pods_CaptureBlocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureBlocker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA481E123B21CD7008391E6 /* CaptureBlockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureBlockable.swift; sourceTree = "<group>"; };
+		DAF3698FFC51F584DB4C0D97C51CEA86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB9597C2EF76FEA5F1D9826FC2393AFE /* CaptureBlocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptureBlocker-umbrella.h"; sourceTree = "<group>"; };
 		E43D9AE12B18BB91A4BA1CEFC6A9425C /* Pods-CaptureBlocker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureBlocker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E81000D45AE72C35BAD2D14AD96D30A8 /* CaptureBlocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CaptureBlocker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E81000D45AE72C35BAD2D14AD96D30A8 /* CaptureBlocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CaptureBlocker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E95A36C1FD09064F6D5DD724DE9DD1D0 /* Pods-CaptureBlocker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaptureBlocker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F299E83C8AE6D3924F464E0BBB39839B /* Pods-CaptureBlocker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptureBlocker_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,7 +151,7 @@
 		BEC4FB9BA86272B7252C3752FF2FE590 /* CaptureBlocker */ = {
 			isa = PBXGroup;
 			children = (
-				793B8094D670B36BB9C6B326763E0A63 /* ReplaceMe.swift */,
+				CEA481E023B21CA8008391E6 /* Source */,
 				18173B0F35A6D095C5B130342B67B5A7 /* Pod */,
 				A9E34C948FAEC33B34A271CE56F0C3C7 /* Support Files */,
 			);
@@ -165,6 +165,14 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEA481E023B21CA8008391E6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CEA481E123B21CD7008391E6 /* CaptureBlockable.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					953266C70A9D6C3EFA7EB6E5A51730B0 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA481E223B21CD7008391E6 /* CaptureBlockable.swift in Sources */,
 				71C7288B55A25076D829EFF6EF6EA9C5 /* CaptureBlocker-dummy.m in Sources */,
-				61E9BA1FA70BD375BD7F2DC3277CFA4B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 109B417A3161DF5A03E796E2A45381F2 /* CaptureBlocker.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -623,8 +637,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -698,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 109B417A3161DF5A03E796E2A45381F2 /* CaptureBlocker.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,6 +732,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

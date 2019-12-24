@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1ea0e03700f39740f2361723c7088ef1"
+build_time: [1577182551, 812166000]
+inputs:
+  "/Users/user/Dev/iOS/CaptureBlocker/Source/CaptureBlockable.swift": [1577182550, 635032666]
